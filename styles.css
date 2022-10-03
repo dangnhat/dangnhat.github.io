@@ -4,11 +4,12 @@ body{
 	margin:0px;
 	font: 400 12px/22px 'Merriweather', Verdana, Helvetica, sans-serif;
 	color:black;
+	counter-reset: pub-counter;
 }
 h1{font: 400 44px/46px 'Merriweather', Georgia, sans-serif; color:black;}
 h2{font: 400 18px/22px 'Merriweather', Georgia, sans-serif; color:black;}
 h3{font: 400 15px/18px 'Merriweather', Georgia, sans-serif; color:black;}
-li{font: 400 16px/20px 'Merriweather', Georgia, sans-serif; color:black; list-style-type: circle;}
+li{font: 400 16px/20px 'Merriweather', Georgia, sans-serif; color:black;}
 li2{font: 400 16px/22px 'Merriweather', Georgia, sans-serif; color:black; list-style-type: circle;}
 ul{margin:0px; padding:0px;}
 a {text-decoration:none; color:#3498DB;}
@@ -85,7 +86,7 @@ a2 img{border:0px;}
 	background:url(images/sm-linkedin-icon.png) no-repeat;
 }
 #about .content{overflow:auto;}
-#about .content img{float:left; margin-right:40px; border:3px solid #222222;}
+#about .content img{float:left; margin-right:20px; border:3px solid #222222;}
 #about .content #service-icons{margin-top:20px;}
 #about .content #service-icons li{
 	display:block;
